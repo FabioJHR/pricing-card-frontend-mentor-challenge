@@ -2,31 +2,35 @@ body {
   padding: 20px;
 }
 
-h2, h4, p {
+h2,
+h4,
+p {
   margin: 0;
 }
 
 html {
   box-sizing: border-box;
-  font-family: 'karla';
+  font-family: "karla";
   font-size: 16px;
   font-weight: 400;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 #card {
-  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 #top-section {
   width: 100%;
   heigth: 45%;
-  padding: 25px; 
+  padding: 25px;
 }
 
 #bottom-section {
@@ -34,7 +38,7 @@ html {
   flex-direction: column;
   width: 100%;
   heigth: 55%;
-  color: white; 
+  color: white;
 }
 
 #bottom-left-section {
@@ -73,13 +77,13 @@ button {
   padding: 15px;
   width: 100%;
   border-radius: 5px;
-  box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.35); 
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.35);
 }
 
 button:hover {
   cursor: pointer;
-  background-color: #A9C42D;
-  transform: scale(1.02);  
+  background-color: #a9c42d;
+  transform: scale(1.02);
 }
 
 #price {
@@ -87,7 +91,7 @@ button:hover {
   font-size: 1.4rem;
 }
 
-#bottom-left-section h4{
+#bottom-left-section h4 {
   margin-bottom: 15px;
   margin-top: 10px;
 }
@@ -98,7 +102,7 @@ button:hover {
 }
 
 #bottom-right-section h4 {
- margin-top: 10px;
+  margin-top: 10px;
 }
 
 #bottom-right-section ul {
@@ -114,7 +118,6 @@ button:hover {
   align-items: center;
 }
 
-
 #price-frequency {
   font-size: 0.8rem;
   color: #e5eff5;
@@ -124,13 +127,11 @@ button:hover {
 
 @media (min-width: 576px) {
   #card {
-     width: 550px;
-     heigth: 400px;
+    width: 550px;
+    heigth: 400px;
   }
-  
+
   #bottom-section {
     flex-direction: row;
   }
 }
-
-
